@@ -13,9 +13,10 @@ const cors = require("cors");
 
 
 app.use(cors({
-  origin: [
+  origin:[
     "http://localhost:5173",
-    "https://interview-preparation-theta-opal.vercel.app"
+    "https://interview-preparation-theta-opal.vercel.app",
+    "https://interview-preparation-i146iwm2y-pro-team-bf05.vercel.app"
   ],
   credentials: true
 }));
